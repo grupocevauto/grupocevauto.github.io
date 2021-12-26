@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
   <head>
     <!-- This stores the URL the user was attempting to go to in sessionStorage,
@@ -10,4 +11,18 @@
   </head>
   <body>
   </body>
+=======
+<html>
+  <head>
+    <!-- This stores the URL the user was attempting to go to in sessionStorage,
+    and then redirects all 404 responses to the app’s index.html page -->
+    <!-- See http://www.backalleycoder.com/2016/05/13/sghpa-the-single-page-app-hack-for-github-pages/ -->
+    <script>
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='https://grupocevauto.github.io/'"></meta>
+  </head>
+  <body>
+  </body>
+>>>>>>> 4a3898d8146a6ff47dcc704e1baf31df5307212b
 </html>
